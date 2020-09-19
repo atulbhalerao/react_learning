@@ -4,9 +4,9 @@ class HelloWorld extends React.Component{
   render(){
       return(
         <div>
-            <h1>Header</h1>
-            <h2>Content</h2>
-            <p>This is the content!!!</p>
+            <h1>Hello World!</h1>
+            <h2>Hello World!!</h2>
+            <p>Hello World!!!</p>
         </div>
       );
   }  
