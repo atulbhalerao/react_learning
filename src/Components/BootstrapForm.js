@@ -8,11 +8,11 @@ class BootstrapForm extends Component {
                 <h2>Employee</h2>
                 <form>
                     <div className="form-group">
-                        <label>Employee Code : </label>
+                        {/* <label>Employee Code : </label> */}
                         <input type="text" id="txtEmployeeCode" className="form-control" placeholder="Enter employee code"></input>
                     </div>
                     <div className="form-group">
-                        <label>Employee Name : </label>
+                        {/* <label>Employee Name : </label> */}
                         <input type="text" id="txtEmployeeName" className="form-control" placeholder="Enter employee name"></input>
                     </div>
                     <div className="form-group">

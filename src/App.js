@@ -7,18 +7,20 @@ import './App.css';
 // import HelloWorld from './Components/HelloWorld';
 // import EmployeeList from './Components/EmployeeList';
 import BootstrapForm from './Components/BootstrapForm'
+import FunComponent from './Components/FunComponent';
 
 function App() {
   return (
-    <BootstrapForm></BootstrapForm>
-    // <div className="App">
-      
-    //   {/* <MyComponent name="Atul"></MyComponent> */}
-    //   {/* <HelloWorld></HelloWorld>
-    //   <EmployeeList></EmployeeList> */}
-    //   {/* <AddEmployee></AddEmployee>
-    //   <CreditCardForm></CreditCardForm> */}
-    // </div>
+    
+    // <BootstrapForm></BootstrapForm>
+    <div className="App">
+      <FunComponent></FunComponent>
+      {/* <MyComponent name="Atul"></MyComponent> */}
+       {/* <HelloWorld></HelloWorld>
+       <EmployeeList></EmployeeList> */}
+      {/* <AddEmployee></AddEmployee>
+      <CreditCardForm></CreditCardForm> */}
+   </div>
   );
 }
 
